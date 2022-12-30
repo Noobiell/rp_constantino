@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&family=Roboto:wght@300;700&display=swap');
+
+:root {
+
+    --fontTitle: 'Roboto Mono', monospace;
+    --fontText: 'Roboto', sans-serif;
+    --branco: #fff;
+    --cinzaClaro: rgb(240, 240, 240);
+    --brancoTranp: rgba(255, 255, 255, 0.849);
+    --preto: #222222;
+    --gold: #ccb879;
+    --cinza: #9d9797;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: var(--fontText);
+
+}
+
+.branco {
+    color: var(--branco);
+}
+
+.tituloPag {
+    color: var(--gold);
+    font-family: var(--fontTitle);
+}
+
+
+.subTextoPag {
+    color: var(--cinza);
+}
+
+
+/*HEADER*/
+.iconMenu {
+
+    font-size: 25px;
+    color: var(--preto);
+
+}
+
+.bgBrancoH {
+    background-color: var(--branco);
+    color: var(--preto) !important;
+}
+
+.bgPretoH {
+    background-color: var(--preto);
+    color: var(--branco) !important;
+}
+
+.logoMenu {
+
+    background: url('../img/logo_sem_fundo.png') no-repeat;
+    background-size: contain;
+    width: 125px;
+    height: 80px;
+
+}
+
+.itemNav {
+    color: var(--preto);
+}
+
+
+/*BANNER INICIO*/
+.bannerInicio {
+    height: 100vh;
+    background: url('../img/backgrounds/bgFamilyCarro.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.anuncioBanner {
+    background-color: var(--brancoTranp);
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.anuncioBanner h1 {
+    font-family: var(--fontTitle);
+}
+
+
+/*SEGURADORAS*/
+.containerSeguradoras {
+
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 1rem;
+
+}
+
+.imgSeguradora {
+    height: 150px;
+    padding: .5rem;
+}
+
+/*SERVIÇOS*/
+
+.iconeServicos {
+
+    color: var(--gold);
+    margin-right: .5rem;
+
+}
+
+/*RODAPÉ*/
+footer {
+
+    background-color: var(--preto);
+    padding: 2rem;
+
+}
+
+.logoFooter {
+    width: 250px;
+}
+
+.containerListaFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.containerListaFooter a {
+
+    color: var(--branco);
+    text-decoration: none;
+
+
+}
+
+.containerListaRsFooter {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.containerListaRsFooter i {
+
+    font-size: 25px;
+    color: var(--branco);
+
+}
+
+
+/*RESPONSIVIDADE*/
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    .itemNav {
+        color: var(--preto) !important;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 575px) {
+
+    .anuncioBanner {
+
+        padding: .3rem;
+
+    }
+
+    .itemNav {
+        color: var(--preto) !important;
+    }
+
+    .containerListaFooter {
+
+        gap: 1.5rem;
+
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .itemNav {
+        color: var(--preto) !important;
+    }
+
+    .containerListaFooter {
+        gap: 1.5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*SEM ALTERAÇÃO NECESSÁRIA*/
+
+}
