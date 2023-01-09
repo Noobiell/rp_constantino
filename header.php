@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md barraNav bgBrancoH fixed-top">
+<nav class="navbar navbar-expand-md barraNav bgPretoH fixed-top">
     <div class="container-fluid">
 
         <a class="navbar-brand logoMenu" href="index.php"></a>
@@ -18,27 +18,30 @@
                         <a class="nav-link itemNav" aria-current="page" href="index.php">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link itemNav" href="#">Planos</a>
+                        <a class="nav-link itemNav" href="paraVoce.php">Para você</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link itemNav" href="#">Corretoras</a>
+                        <a class="nav-link itemNav" href="paraEmpresas.php">Para empresas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link itemNav" href="#">Sobre nós</a>
+                        <a class="nav-link itemNav" href="contato.php">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link itemNav" href="quem_somos.php">Quem somos</a>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link itemNav" href="https://wa.me/5515996388800?text=Ol%C3%A1%2C%20me%20chamo%20Gabriel%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="nav-link itemNav" href="https://wa.me/5515996388800?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link itemNav" href="https://www.instagram.com/rpconstantinoseguros/"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="nav-link itemNav" href="https://www.instagram.com/rpconstantinoseguros/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link itemNav" href="https://web.facebook.com/profile.php?id=100088888952713"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="nav-link itemNav" href="https://web.facebook.com/profile.php?id=100088888952713" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     </li>
                 </ul>
 

@@ -26,12 +26,27 @@ body {
 }
 
 .branco {
-    color: var(--branco);
+    color: var(--branco) !important;
+}
+
+.gold {
+    color: var(--gold);
 }
 
 .tituloPag {
     color: var(--gold);
     font-family: var(--fontTitle);
+    font-weight: 600;
+}
+
+
+.subTituloPa {
+
+    color: var(--gold);
+    font-family: var(--fontTitle);
+    font-weight: 600;
+    font-size: 25px;
+
 }
 
 
@@ -44,7 +59,7 @@ body {
 .iconMenu {
 
     font-size: 25px;
-    color: var(--preto);
+    color: var(--branco);
 
 }
 
@@ -68,7 +83,20 @@ body {
 }
 
 .itemNav {
-    color: var(--preto);
+    color: var(--branco);
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+}
+
+.itemNav:hover {
+    border-bottom: 1px solid var(--gold);
+    color: var(--branco);
+}
+
+.offcanvas-title {
+
+    color: var(--preto) !important;
+
 }
 
 
@@ -102,9 +130,16 @@ body {
 
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
+    /* overflow-x: auto; */
+    overflow: hidden;
     gap: 1rem;
 
+}
+
+.teste {
+    animation: scroll 20s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
 }
 
 .imgSeguradora {
@@ -167,16 +202,268 @@ footer {
 
 }
 
+.btnWhatsapp {
+
+    background-color: #4fce5d;
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    border-radius: 30px;
+}
+
+.btnWhatsapp:hover {
+
+    color: var(--branco);
+
+}
+
+/*PRA VOCÊ*/
+
+.btnSaibaMais {
+
+    background-color: var(--gold);
+    color: var(--branco);
+    font-weight: 600;
+
+}
+
+.btnSaibaMais:hover {
+
+    background-color: #ccba80;
+    color: var(--branco);
+
+}
+
+#headerContato {
+
+    background: url('../img/contato.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 75vh;
+    background-attachment: fixed;
+
+}
+
+#headerPraVoce {
+
+    background: url('../img/para_voce2.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 75vh;
+    background-attachment: fixed;
+
+}
+
+#headerParaEmpresa {
+
+    background: url('../img/para_empresas2.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
+    background-attachment: fixed;
+}
+
+#headerQuemSomos {
+
+    background: url('../img/quem_somos.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
+    background-attachment: fixed;
+
+}
+
+.tituloPvc {
+    font-size: 70px;
+    font-family: var(--fontTitle);
+    font-weight: 600;
+}
+
+.textoPvc {
+    font-size: 18px;
+}
+
+.containerProduto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 1px 3px 5px #666666;
+    margin-bottom: 2rem;
+}
+
+.textoProduto {
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+
+}
+
+.containerTextoProduto {
+
+    color: var(--cinza);
+    height: 220px;
+    overflow-y: auto;
+
+}
+
+
+
+/*CONTATO*/
+.containerContato {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.formaContato {
+    font-size: 15px;
+}
+
+.avisoForm {
+
+    font-size: 14px;
+    color: var(--cinza);
+
+}
+
+
+/*SOBRE NÓS*/
+
+.containerValores {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+
+}
+
+.containerValores i {
+
+    color: var(--preto);
+
+}
+
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-230px * 7));
+    }
+}
 
 /*RESPONSIVIDADE*/
 
 @media screen and (min-width: 0px) and (max-width: 300px) {
+
+
+    #headerContato {
+
+        background: url('../img/contato.jpg') no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    #headerPraVoce {
+
+        background: url('../img/para_voce2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top right;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    #headerParaEmpresa {
+
+        background: url('../img/para_empresas2.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom left;
+        height: 75vh;
+        background-attachment: fixed;
+    }
+
+    .msgWhatsapp {
+        display: none;
+    }
+
+    .btnWhatsapp {
+
+        padding: .7rem 1rem;
+        border-radius: 50%;
+
+    }
+
+    .containerValores {
+        flex-wrap: wrap;
+    }
+
+
     .itemNav {
         color: var(--preto) !important;
     }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-260px * 10));
+        }
+    }
+
 }
 
 @media screen and (min-width: 301px) and (max-width: 575px) {
+
+
+    #headerContato {
+
+        background: url('../img/contato.jpg') no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    #headerPraVoce {
+
+        background: url('../img/para_voce2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top right;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    #headerParaEmpresa {
+
+        background: url('../img/para_empresas2.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom left;
+        height: 75vh;
+        background-attachment: fixed;
+    }
+
+
 
     .anuncioBanner {
 
@@ -193,9 +480,65 @@ footer {
         gap: 1.5rem;
 
     }
+
+    .msgWhatsapp {
+        font-size: 14px;
+    }
+
+    .btnWhatsapp {
+
+        padding: .7rem 1rem;
+
+    }
+
+    .containerValores {
+        flex-wrap: wrap;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-230px * 11));
+        }
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    #headerContato {
+
+        background: url('../img/contato.jpg') no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    #headerPraVoce {
+
+        background: url('../img/para_voce2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top right;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    #headerParaEmpresa {
+
+        background: url('../img/para_empresas2.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom left;
+        height: 75vh;
+        background-attachment: fixed;
+    }
+
 
     .itemNav {
         color: var(--preto) !important;
@@ -206,10 +549,87 @@ footer {
     }
 
 
+    .msgWhatsapp {
+        font-size: 14px;
+    }
+
+    .btnWhatsapp {
+
+        padding: .7rem 1rem;
+
+    }
+
+    .containerValores {
+        flex-wrap: wrap;
+    }
+
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-210px * 11));
+        }
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    /*SEM ALTERAÇÃO NECESSÁRIA*/
+
+    #headerPraVoce {
+
+        background: url('../img/para_voce2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top right;
+        height: 75vh;
+        background-attachment: fixed;
+
+    }
+
+    .msgWhatsapp {
+        font-size: 14px;
+    }
+
+    .btnWhatsapp {
+
+        padding: .7rem 1rem;
+
+    }
+
+    .containerValores {
+        flex-wrap: wrap;
+    }
+
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-200px * 11));
+        }
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .containerValores {
+        flex-wrap: wrap;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-190px * 10));
+        }
+    }
 
 }

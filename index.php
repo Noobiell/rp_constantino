@@ -47,7 +47,7 @@
     </article>
 
     <article>
-        <!-- <section class="container mb-5">
+        <section class="container mb-5">
 
             <div class="row text-center mb-3">
                 <h1 class="tituloPag">Trabalhamos com as principais seguradoras</h1>
@@ -59,39 +59,84 @@
 
                     <div class="containerSeguradoras">
 
-                        <img src="assets/img/seguradoras/AIG.png" alt="AIG Seguros" class="imgSeguradora">
+                        <div class="teste">
 
-                        <img src="assets/img/seguradoras/ALLIANZ.png" alt="ALLIANZ Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/AXA.png" alt="AXA Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/AZOS.png" alt="AZOS Seguros" class="imgSeguradora">
+                            <img src="assets/img/seguradoras/AIG2.png" alt="AIG Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/AZUL.png" alt="AZUL Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/BRADESCO.png" alt="BRADESCO Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/HDI.png" alt="HDI Seguros" class="imgSeguradora">
+                            <img src="assets/img/seguradoras/ALLIANZ2.png" alt="ALLIANZ Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/LIBERTY.png" alt="LIBERTY Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/MAG.png" alt="MAG Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/MAPFRE.png" alt="MAPFRE Seguros" class="imgSeguradora">
+                            <img src="assets/img/seguradoras/AXA2.png" alt="AXA Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/NOTREDAME.png" alt="NOTREDAME Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/PORTO.png" alt="PORTO Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/QUALICORP.png" alt="QUALICORP Seguros" class="imgSeguradora">
+                            <img src="assets/img/seguradoras/AZOS2.png" alt="AZOS Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/SUHAI.jpg" alt="SUHAI Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/SULAMERICA.png" alt="SULAMERICA Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/SURA.jpg" alt="SURA Seguros" class="imgSeguradora">
+                            <img src="assets/img/seguradoras/AZUL2.png" alt="AZUL Seguros" class="imgSeguradora">
 
-                        <img src="assets/img/seguradoras/TOKIO.jpg" alt="TOKIO Seguros" class="imgSeguradora">
+
+
+                            <img src="assets/img/seguradoras/BRADESCO2.png" alt="BRADESCO Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/HDI2.png" alt="HDI Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/LIBERTY2.png" alt="LIBERTY Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/MAG2.png" alt="MAG Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/MAPFRE2.png" alt="MAPFRE Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/NOTREDAME2.png" alt="NOTREDAME Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/PORTO2.png" alt="PORTO Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/QUALICORP2.png" alt="QUALICORP Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/SUHAI2.png" alt="SUHAI Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/SULAMERICA2.png" alt="SULAMERICA Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/SURA2.png" alt="SURA Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/TOKIO2.png" alt="TOKIO Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/sompo.png" alt="TOKIO Seguros" class="imgSeguradora">
+
+
+
+                            <img src="assets/img/seguradoras/ituran.png" alt="Ituran Seguros" class="imgSeguradora">
+                        </div>
 
                     </div>
 
@@ -99,86 +144,94 @@
 
             </div>
 
-        </section> -->
+        </section>
 
-        <section class="container mb-5">
+        <!-- <section class="container mb-5">
             <div class="row text-center mb-3">
                 <h1 class="tituloPag">Trabalhamos com as principais seguradoras</h1>
             </div>
 
             <div class="row">
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/AIG2.png" alt="AIG Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/AIG2.png" alt="AIG Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/ALLIANZ2.png" alt="ALLIANZ Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/ALLIANZ2.png" alt="ALLIANZ Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/AXA2.png" alt="AXA Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/AXA2.png" alt="AXA Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/AZOS2.png" alt="AZOS Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/AZOS2.png" alt="AZOS Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/AZUL2.png" alt="AZUL Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/AZUL2.png" alt="AZUL Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/BRADESCO2.png" alt="BRADESCO Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/BRADESCO2.png" alt="BRADESCO Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/HDI2.png" alt="HDI Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/HDI2.png" alt="HDI Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/LIBERTY2.png" alt="LIBERTY Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/LIBERTY2.png" alt="LIBERTY Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/MAG2.png" alt="MAG Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/MAG2.png" alt="MAG Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/MAPFRE2.png" alt="MAPFRE Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/MAPFRE2.png" alt="MAPFRE Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/NOTREDAME2.png" alt="NOTREDAME Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/NOTREDAME2.png" alt="NOTREDAME Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/PORTO2.png" alt="PORTO Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/PORTO2.png" alt="PORTO Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/QUALICORP2.png" alt="QUALICORP Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/QUALICORP2.png" alt="QUALICORP Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/SUHAI2.png" alt="SUHAI Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/SUHAI2.png" alt="SUHAI Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/SULAMERICA2.png" alt="SULAMERICA Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/SULAMERICA2.png" alt="SULAMERICA Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/SURA2.png" alt="SURA Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/SURA2.png" alt="SURA Seguros" class="imgSeguradora">
+                
 
-                <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <img src="assets/img/seguradoras/TOKIO2.png" alt="TOKIO Seguros" class="img-fluid border">
-                </div>
+                
+                    <img src="assets/img/seguradoras/TOKIO2.png" alt="TOKIO Seguros" class="imgSeguradora">
+                
+
+                
+                    <img src="assets/img/seguradoras/sompo.png" alt="TOKIO Seguros" class="imgSeguradora">
+                
+
+                
+                    <img src="assets/img/seguradoras/ituran.png" alt="Ituran Seguros" class="imgSeguradora">
+                
 
             </div>
 
-        </section>
+        </section> -->
 
         <section class="container mb-5">
 
@@ -208,7 +261,7 @@
 
                     <p class="subTextoPag">Faça seu orçamento 100% online, você irá conversar com um de nossos atendentes capacitado para lhe oferecer o plano ideal para você!</p>
 
-                    <a href="#" class="btn btn-outline-dark mb-2">Todos os planos</a>
+                    <!-- <a href="#" class="btn btn-outline-dark mb-2">Todos os planos</a> -->
                     <a href="https://wa.me/5515996388800?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento" target="_blank" class="btn btn-success mb-2"><i class="fa-brands fa-whatsapp"></i> Faça seu orçamento</a>
                 </div>
 
@@ -225,7 +278,6 @@
 
     <?php include("footer.php"); ?>
 
-    <script src="assets/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
